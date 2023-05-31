@@ -114,7 +114,7 @@ axes[2].set_title(axes[2].title.get_text().split('.')[1].replace('s','ms'), font
 axes[0].spines['right'].set_visible(False)
 axes[0].spines['top'].set_visible(False)
 axes[3].tick_params(axis='both', which='major', labelsize=18)
-axes[0].set_xticklabels([-50,0,50,100,150,120,125])
+axes[0].set_xticklabels([-50,0,50,100,150,200,250])
 fig.tight_layout()
 fig.set_size_inches([9,8])
 fig.savefig(join(path_paper, 'audio_erp.svg'))
